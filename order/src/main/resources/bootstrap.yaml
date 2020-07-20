@@ -1,0 +1,17 @@
+server:
+  port: 8090
+spring:
+  profiles:
+    active: dev
+  application:
+    name: order
+  cloud:
+    nacos:
+      config:
+        server-addr: 39.108.66.157:8848
+        group: DEFAULT_GROUP
+        file-extension: yaml
+      discovery:
+        #nacos注册地址
+        server-addr: 39.108.66.157:8848
+        enabled: true

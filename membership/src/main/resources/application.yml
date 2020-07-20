@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: memeber
+  cloud:
+    nacos:
+      discovery:
+        #nacos×¢²áµØÖ·
+        server-addr: 39.108.66.157:8848
