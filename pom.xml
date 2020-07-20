@@ -12,6 +12,7 @@
     <modules>
         <module>membership</module>
         <module>order</module>
+
     </modules>
     <groupId>com.yscoco</groupId>
     <artifactId>11_spingcloud</artifactId>

@@ -15,7 +15,7 @@ spring:
         ###路由id
         - id: order
           ####转发http://www.mayikt.com/
-          uri: http://www.mayikt.com/
+          uri: http://www.baidu.com/
           ###匹配规则
           predicates:
             - Path=/mayikt/**
